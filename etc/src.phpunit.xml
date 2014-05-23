@@ -1,0 +1,22 @@
+<!-- PHPUnit Configuration File
+ 
+     See: Makefile test-unit file
+     See: config/datasources.unit.ini
+     See: config/runtime.unit.ini exports section
+     See: test/unit for test files
+      
+-->
+<phpunit backupGlobals="false"
+         backupStaticAttributes="false"
+         bootstrap="../bootstrap.php"
+         cacheTokens="true"
+         colors="false"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         processIsolation="false"
+         stopOnFailure="false"
+         syntaxCheck="false"
+         strictMode="true"
+         verbose="false">
+</phpunit>

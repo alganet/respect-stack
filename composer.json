@@ -1,0 +1,15 @@
+{
+    "require": {
+        "respect/rest": "0.5.x",
+        "respect/config": "0.3.x",
+        "twig/twig": "1.13.1"
+    },
+    "require-dev": {
+        "respect/test": "dev-master",
+        "phpunit/phpunit": "3.7.x",
+        "lstrojny/phpunit-function-mocker": "dev-master"
+    },  
+    "autoload": {
+        "psr-0": { "": "src/" }
+    }
+}
